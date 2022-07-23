@@ -4,3 +4,7 @@ https://yxlr.tk/about/index.html
 https://yxlr.tk/tags/index.html
 https://yxlr.tk/categories/index.html
 https://yxlr.tk/
+https://yxlr.tk/tags/web/
+https://yxlr.tk/tags/hexo/
+https://yxlr.tk/tags/%E5%8D%9A%E5%AE%A2/
+https://yxlr.tk/categories/%E7%BD%91%E7%AB%99/

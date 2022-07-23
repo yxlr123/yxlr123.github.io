@@ -258,10 +258,62 @@
             </div>
             <div class="tag-chips">
                 
+                
+                <a href="/tags/web/" title="web: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="web" style="background-color: #F9EBEA;">web
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/hexo/" title="hexo: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="hexo" style="background-color: #F5EEF8;">hexo
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/%E5%8D%9A%E5%AE%A2/" title="博客: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="博客" style="background-color: #D5F5E3;">博客
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
             </div>
         </div>
     </div>
 </div>
+
+    
+    <link rel="stylesheet" type="text/css" href="/libs/jqcloud/jqcloud.css">
+<style type="text/css">
+    #tag-wordcloud {
+        width: 100%;
+        height: 300px;
+    }
+</style>
+
+<div class="container" data-aos="fade-up">
+    <div class="card">
+        <div id="tag-wordcloud" class="card-content"></div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    $.getScript("/libs/jqcloud/jqcloud-1.0.4.min.js",function () {
+        
+
+        $('#tag-wordcloud').jQCloud([{"text":"web","weight":1,"link":"/tags/web/"},{"text":"hexo","weight":1,"link":"/tags/hexo/"},{"text":"博客","weight":1,"link":"/tags/博客/"}], {
+            autoResize: true
+        });
+    })
+</script>
 
     
 
