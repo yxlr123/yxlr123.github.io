@@ -374,7 +374,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2022-07-24
+                    2022-07-25
                 </div>
                 
 
@@ -492,9 +492,6 @@
                     <link rel="stylesheet" type="text/css" href="/libs/share/css/share.min.css">
 <div id="article-share">
 
-    
-    <div class="social-share" data-sites="twitter,facebook,google,qq,qzone,wechat,weibo,douban,linkedin" data-wechat-qrcode-helper="<p>微信扫一扫即可分享！</p>"></div>
-    <script src="/libs/share/js/social-share.min.js"></script>
     
 
     
@@ -1158,6 +1155,33 @@ $(function () {
     <script async src="/libs/others/busuanzi.pure.mini.js"></script>
 
 
+
+    <script src="//code.tidio.co/txrwja1xdsefyve7aeqelumqfy9e48tw.js"></script>
+    <script>
+        $(document).ready(function () {
+            setInterval(change_Tidio, 50);
+
+            function change_Tidio() {
+                var tidio = $("#tidio-chat iframe");
+                if (tidio.css("display") == "block" && $(window).width() > 977) {
+                    document.getElementById("tidio-chat-iframe").style.bottom = ($("div#backTop.top-scroll").css("display") == "none" && $(window).width() > 977) > 0 ? "-40px" : ($("div.toc-title").length && $(window).width() > 977) > 0 ? "85px" : "20px";
+                    document.getElementById("tidio-chat-iframe").style.right = "-15px";
+                    document.getElementById("tidio-chat-iframe").style.height = parseInt(tidio.css("height")) >= 520 ? "520px" : tidio.css("height");
+                    document.getElementById("tidio-chat-iframe").style.zIndex = "997";
+                } else if (tidio.css("display") == "block" && $(window).width() > 601 && $(window).width() < 992) {
+                    document.getElementById("tidio-chat-iframe").style.bottom = ($("div#backTop.top-scroll").css("display") == "none" && 601 < $(window).width() < 992) > 0 ? "-40px" : "20px";
+                    document.getElementById("tidio-chat-iframe").style.right = "-15px";
+                    document.getElementById("tidio-chat-iframe").style.zIndex = "997";
+                } else if (tidio.css("display") == "block" && $(window).width() < 601 && parseInt(tidio.css("height")) < 230) {
+                    document.getElementById("tidio-chat-iframe").style.bottom = ($("div#backTop.top-scroll").css("display") == "none" && $(window).width() < 601) > 0 ? "-10px" : "45px";
+                    document.getElementById("tidio-chat-iframe").style.zIndex = "997";
+                }
+                if (tidio.css("display") == "block" && $(window).width() < 601 && parseInt(tidio.css("height")) >= 230) {
+                    document.getElementById("tidio-chat-iframe").style.zIndex = "998";
+                }
+            }
+        });
+    </script>
 
 
 
