@@ -1,0 +1,18 @@
+{
+  "name": "yxlrblog",
+  "version": "1.0.0",
+  "description": "幽香乐容的博客",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/yxlr123/yxlr123.github.io"
+  },
+  "keywords": [
+    "blog"
+  ],
+  "author": "yxlr",
+  "license": "ISC"
+}
