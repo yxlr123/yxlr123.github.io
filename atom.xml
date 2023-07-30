@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>幽香乐容</title>
+  <icon>https://yanxuan.nosdn.127.net/89edcfbce663a72a7aea8ac266f3f124.png</icon>
+  <subtitle>与其抱怨，不如改变</subtitle>
+  <link href="https://blog.yxlr.link/atom.xml" rel="self"/>
+  
+  <link href="https://blog.yxlr.link/"/>
+  <updated>2023-01-18T00:52:28.000Z</updated>
+  <id>https://blog.yxlr.link/</id>
+  
+  <author>
+    <name>幽香乐容</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Markdown 基础语法</title>
+    <link href="https://blog.yxlr.link/posts/8513d0f8/"/>
+    <id>https://blog.yxlr.link/posts/8513d0f8/</id>
+    <published>2022-08-04T21:13:46.000Z</published>
+    <updated>2023-01-18T00:52:28.000Z</updated>
+    
+    
+    <summary type="html">Markdown是一种轻量标记语言。</summary>
+    
+    
+    
+    <category term="教程" scheme="https://blog.yxlr.link/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="Markdown" scheme="https://blog.yxlr.link/tags/Markdown/"/>
+    
+    <category term="语法" scheme="https://blog.yxlr.link/tags/%E8%AF%AD%E6%B3%95/"/>
+    
+  </entry>
+  
+</feed>
