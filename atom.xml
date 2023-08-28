@@ -1,40 +1,279 @@
-<?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
-  <title>幽香乐容</title>
-  <icon>https://yanxuan.nosdn.127.net/89edcfbce663a72a7aea8ac266f3f124.png</icon>
-  <subtitle>与其抱怨，不如改变</subtitle>
-  <link href="https://blog.yxlr.link/atom.xml" rel="self"/>
-  
-  <link href="https://blog.yxlr.link/"/>
-  <updated>2023-01-18T00:52:28.000Z</updated>
-  <id>https://blog.yxlr.link/</id>
-  
-  <author>
-    <name>幽香乐容</name>
-    
-  </author>
-  
-  <generator uri="https://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>Markdown 基础语法</title>
-    <link href="https://blog.yxlr.link/posts/8513d0f8/"/>
-    <id>https://blog.yxlr.link/posts/8513d0f8/</id>
-    <published>2022-08-04T21:13:46.000Z</published>
-    <updated>2023-01-18T00:52:28.000Z</updated>
-    
-    
-    <summary type="html">Markdown是一种轻量标记语言。</summary>
-    
-    
-    
-    <category term="教程" scheme="https://blog.yxlr.link/categories/%E6%95%99%E7%A8%8B/"/>
-    
-    
-    <category term="Markdown" scheme="https://blog.yxlr.link/tags/Markdown/"/>
-    
-    <category term="语法" scheme="https://blog.yxlr.link/tags/%E8%AF%AD%E6%B3%95/"/>
-    
-  </entry>
-  
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>幽香乐容</title>
+    <subtitle>与其抱怨，不如改变</subtitle>
+    <link href="https://blog.yxlr.link/atom.xml" rel="self" type="application/atom+xml"/>
+    <link href="https://blog.yxlr.link"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2022-08-23T00:00:00+00:00</updated>
+    <id>https://blog.yxlr.link/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Markdown 基础语法</title>
+        <published>2022-08-05T00:00:00+00:00</published>
+        <updated>2022-08-23T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://blog.yxlr.link/posts/test/" type="text/html"/>
+        <id>https://blog.yxlr.link/posts/test/</id>
+        
+        <content type="html">&lt;h2 id=&quot;1-shi-yao-shi-markdown&quot;&gt;1.什么是Markdown&lt;&#x2F;h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;Markdown&lt;&#x2F;code&gt;是一种轻量标记语言,通过简单的语法，使普通文本具有一定的格式。文件后缀名一般为&lt;code&gt;.md&lt;&#x2F;code&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;注意&lt;&#x2F;strong&gt;：用到的符号必须在英文状态下输入才会生效&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;h2 id=&quot;ji-chu-yong-fa&quot;&gt;基础用法&lt;&#x2F;h2&gt;
+&lt;hr &#x2F;&gt;
+&lt;h3 id=&quot;2-biao-ti&quot;&gt;2.标题&lt;&#x2F;h3&gt;
+&lt;p&gt;有两种写法：&lt;&#x2F;p&gt;
+&lt;h4 id=&quot;fang-fa-yi-zai-wen-zi-xia-fang-shu-ru-huo-gou-cheng-de-xian&quot;&gt;方法一：在文字下方输入&lt;code&gt;-&lt;&#x2F;code&gt;或&lt;code&gt;=&lt;&#x2F;code&gt;构成的线:&lt;&#x2F;h4&gt;
+&lt;pre data-lang=&quot;md&quot; style=&quot;background-color:#0f1419;color:#bfbab0;&quot; class=&quot;language-md &quot;&gt;&lt;code class=&quot;language-md&quot; data-lang=&quot;md&quot;&gt;&lt;span&gt;我展示的是一级标题
+&lt;&#x2F;span&gt;&lt;span style=&quot;font-weight:bold;color:#ff7733;&quot;&gt;=================
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt;我展示的是二级标题
+&lt;&#x2F;span&gt;&lt;span style=&quot;font-weight:bold;color:#ff7733;&quot;&gt;-----------------
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;blockquote&gt;
+&lt;p&gt;输出结果：&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;pic.rmb.bdstatic.com&#x2F;bjh&#x2F;62fb3293b1633c3ed4a3783127f9d02d.jpeg&quot; alt=&quot;方法一&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;h4 id=&quot;fang-fa-er-zai-wen-zi-qian-mian-cha-ru-hao-nei-rong-qian-mian-yao-you-kong-ge-yu-ge-kai&quot;&gt;方法二：在文字前面插入&lt;code&gt;#&lt;&#x2F;code&gt;号，内容前面要有空格与&lt;code&gt;#&lt;&#x2F;code&gt;隔开：&lt;&#x2F;h4&gt;
+&lt;pre data-lang=&quot;md&quot; style=&quot;background-color:#0f1419;color:#bfbab0;&quot; class=&quot;language-md &quot;&gt;&lt;code class=&quot;language-md&quot; data-lang=&quot;md&quot;&gt;&lt;span style=&quot;font-weight:bold;color:#ff7733;&quot;&gt;# &lt;&#x2F;span&gt;&lt;span style=&quot;font-weight:bold;color:#59c2ff;&quot;&gt;一级标题
+&lt;&#x2F;span&gt;&lt;span style=&quot;font-weight:bold;color:#ff7733;&quot;&gt;## &lt;&#x2F;span&gt;&lt;span style=&quot;font-weight:bold;color:#59c2ff;&quot;&gt;二级标题
+&lt;&#x2F;span&gt;&lt;span style=&quot;font-weight:bold;color:#ff7733;&quot;&gt;### &lt;&#x2F;span&gt;&lt;span style=&quot;font-weight:bold;color:#59c2ff;&quot;&gt;三级标题
+&lt;&#x2F;span&gt;&lt;span style=&quot;font-weight:bold;color:#ff7733;&quot;&gt;#### &lt;&#x2F;span&gt;&lt;span style=&quot;font-weight:bold;color:#59c2ff;&quot;&gt;四级标题
+&lt;&#x2F;span&gt;&lt;span style=&quot;font-weight:bold;color:#ff7733;&quot;&gt;##### &lt;&#x2F;span&gt;&lt;span style=&quot;font-weight:bold;color:#59c2ff;&quot;&gt;五级标题
+&lt;&#x2F;span&gt;&lt;span style=&quot;font-weight:bold;color:#ff7733;&quot;&gt;###### &lt;&#x2F;span&gt;&lt;span style=&quot;font-weight:bold;color:#59c2ff;&quot;&gt;六级标题
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;blockquote&gt;
+&lt;p&gt;输出结果：&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;pic.rmb.bdstatic.com&#x2F;bjh&#x2F;609cc44b9a9df01da5c84541df3a72db.jpeg&quot; alt=&quot;方法二&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;h3 id=&quot;3-duan-luo&quot;&gt;3.段落&lt;&#x2F;h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;方法一：在段落最后使用加入&lt;code&gt;&amp;lt;br&#x2F;&amp;gt;&lt;&#x2F;code&gt;标签实现换行。
+方法二：段落最后按&lt;code&gt;两次回车&lt;&#x2F;code&gt;，直接隔一行写。&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;pre data-lang=&quot;md&quot; style=&quot;background-color:#0f1419;color:#bfbab0;&quot; class=&quot;language-md &quot;&gt;&lt;code class=&quot;language-md&quot; data-lang=&quot;md&quot;&gt;&lt;span&gt;段落1&lt;&#x2F;span&gt;&lt;span style=&quot;color:#39bae690;&quot;&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#59c2ff;&quot;&gt;br&lt;&#x2F;span&gt;&lt;span style=&quot;color:#39bae690;&quot;&gt;&amp;gt; 
+&lt;&#x2F;span&gt;&lt;span&gt;段落2
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;或者：&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;md&quot; style=&quot;background-color:#0f1419;color:#bfbab0;&quot; class=&quot;language-md &quot;&gt;&lt;code class=&quot;language-md&quot; data-lang=&quot;md&quot;&gt;&lt;span&gt;段落1
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt;段落2
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;hr &#x2F;&gt;
+&lt;h3 id=&quot;4-wen-zi-xiao-guo&quot;&gt;4.文字效果&lt;&#x2F;h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;改变字体形态相关写法&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;pre data-lang=&quot;md&quot; style=&quot;background-color:#0f1419;color:#bfbab0;&quot; class=&quot;language-md &quot;&gt;&lt;code class=&quot;language-md&quot; data-lang=&quot;md&quot;&gt;&lt;span style=&quot;font-style:italic;color:#f07178;&quot;&gt;*斜体文本*
+&lt;&#x2F;span&gt;&lt;span style=&quot;font-style:italic;color:#f07178;&quot;&gt;_斜体文本_
+&lt;&#x2F;span&gt;&lt;span style=&quot;font-weight:bold;color:#f07178;&quot;&gt;**粗体文本**
+&lt;&#x2F;span&gt;&lt;span style=&quot;font-style:italic;color:#f07178;&quot;&gt;_粗体文本_
+&lt;&#x2F;span&gt;&lt;span style=&quot;font-weight:bold;color:#f07178;&quot;&gt;**&lt;&#x2F;span&gt;&lt;span style=&quot;font-weight:bold;font-style:italic;color:#f07178;&quot;&gt;*粗斜体文本*&lt;&#x2F;span&gt;&lt;span style=&quot;font-weight:bold;color:#f07178;&quot;&gt;**
+&lt;&#x2F;span&gt;&lt;span&gt;~~带删除线文本~~
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#39bae690;&quot;&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#59c2ff;&quot;&gt;u&lt;&#x2F;span&gt;&lt;span style=&quot;color:#39bae690;&quot;&gt;&amp;gt;&lt;&#x2F;span&gt;&lt;span&gt;带下划线文本&lt;&#x2F;span&gt;&lt;span style=&quot;color:#39bae690;&quot;&gt;&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#59c2ff;&quot;&gt;u&lt;&#x2F;span&gt;&lt;span style=&quot;color:#39bae690;&quot;&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;blockquote&gt;
+&lt;p&gt;输出结果：&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;&lt;em&gt;斜体文本&lt;&#x2F;em&gt;
+&lt;em&gt;斜体文本&lt;&#x2F;em&gt;
+&lt;strong&gt;粗体文本&lt;&#x2F;strong&gt;
+&lt;em&gt;粗体文本&lt;&#x2F;em&gt;
+&lt;em&gt;&lt;strong&gt;粗斜体文本&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;
+&lt;del&gt;带删除线文本&lt;&#x2F;del&gt;
+&lt;u&gt;带下划线文本&lt;&#x2F;u&gt;&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;h3 id=&quot;5-fen-ge-xian&quot;&gt;5.分隔线&lt;&#x2F;h3&gt;
+&lt;pre data-lang=&quot;md&quot; style=&quot;background-color:#0f1419;color:#bfbab0;&quot; class=&quot;language-md &quot;&gt;&lt;code class=&quot;language-md&quot; data-lang=&quot;md&quot;&gt;&lt;span style=&quot;background-color:#bfbab010;font-weight:bold;color:#5c6773;&quot;&gt;***
+&lt;&#x2F;span&gt;&lt;span style=&quot;background-color:#bfbab010;font-weight:bold;color:#5c6773;&quot;&gt;---
+&lt;&#x2F;span&gt;&lt;span style=&quot;background-color:#bfbab010;font-weight:bold;color:#5c6773;&quot;&gt;******
+&lt;&#x2F;span&gt;&lt;span style=&quot;background-color:#bfbab010;font-weight:bold;color:#5c6773;&quot;&gt;----------
+&lt;&#x2F;span&gt;&lt;span style=&quot;background-color:#bfbab010;font-weight:bold;color:#5c6773;&quot;&gt;__________
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#39bae690;&quot;&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#59c2ff;&quot;&gt;hr&lt;&#x2F;span&gt;&lt;span style=&quot;color:#39bae690;&quot;&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;输出结果：
+&lt;img src=&quot;https:&#x2F;&#x2F;pic.rmb.bdstatic.com&#x2F;bjh&#x2F;b27aeb1539ec9fc8b1ecf80e65f44ec2.png&quot; alt=&quot;分割线&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;h3 id=&quot;6-lie-biao&quot;&gt;6.列表&lt;&#x2F;h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Markdown 支持有序列表和无序列表。
+无序列表可使用星号:&lt;code&gt;*&lt;&#x2F;code&gt;、加号：&lt;code&gt;+&lt;&#x2F;code&gt;、减号&lt;code&gt;-&lt;&#x2F;code&gt;都可以，符号与内容要有空格隔开。
+有序列表直接&lt;code&gt;数字+.&lt;&#x2F;code&gt;即可,符号与内容要有空格隔开。&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;pre data-lang=&quot;md&quot; style=&quot;background-color:#0f1419;color:#bfbab0;&quot; class=&quot;language-md &quot;&gt;&lt;code class=&quot;language-md&quot; data-lang=&quot;md&quot;&gt;&lt;span style=&quot;color:#95e6cb;&quot;&gt;* &lt;&#x2F;span&gt;&lt;span&gt;无序列表项1
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#95e6cb;&quot;&gt;*&lt;&#x2F;span&gt;&lt;span&gt; 无序列表项2
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#95e6cb;&quot;&gt;+ &lt;&#x2F;span&gt;&lt;span&gt;无序列表项1
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#95e6cb;&quot;&gt;+&lt;&#x2F;span&gt;&lt;span&gt; 无序列表项2
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#95e6cb;&quot;&gt;- &lt;&#x2F;span&gt;&lt;span&gt;无序列表项1
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#95e6cb;&quot;&gt;-&lt;&#x2F;span&gt;&lt;span&gt; 无序列表项2
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#95e6cb;&quot;&gt;1. &lt;&#x2F;span&gt;&lt;span&gt;有序列表1
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#95e6cb;&quot;&gt;2.&lt;&#x2F;span&gt;&lt;span&gt; 有序列表2
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#95e6cb;&quot;&gt;3.&lt;&#x2F;span&gt;&lt;span&gt; 有序列表3
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;blockquote&gt;
+&lt;p&gt;输出结果：&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;pic.rmb.bdstatic.com&#x2F;bjh&#x2F;93bda90ffe4af9ad5ed5e6b844c0f1b6.jpeg&quot; alt=&quot;列表&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;列表嵌套写法：直接在第二行按Tab键或按四下空格缩进一下即可。&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;pre data-lang=&quot;md&quot; style=&quot;background-color:#0f1419;color:#bfbab0;&quot; class=&quot;language-md &quot;&gt;&lt;code class=&quot;language-md&quot; data-lang=&quot;md&quot;&gt;&lt;span style=&quot;color:#95e6cb;&quot;&gt;1. &lt;&#x2F;span&gt;&lt;span&gt;第一项：
+&lt;&#x2F;span&gt;&lt;span&gt;    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#95e6cb;&quot;&gt;-&lt;&#x2F;span&gt;&lt;span&gt; 第一项第一个
+&lt;&#x2F;span&gt;&lt;span&gt;    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#95e6cb;&quot;&gt;-&lt;&#x2F;span&gt;&lt;span&gt; 第一项第二个
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#95e6cb;&quot;&gt;2.&lt;&#x2F;span&gt;&lt;span&gt; 第二项：
+&lt;&#x2F;span&gt;&lt;span&gt;    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#95e6cb;&quot;&gt;-&lt;&#x2F;span&gt;&lt;span&gt; 第二项第一个
+&lt;&#x2F;span&gt;&lt;span&gt;    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#95e6cb;&quot;&gt;-&lt;&#x2F;span&gt;&lt;span&gt; 第二项第二个
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;blockquote&gt;
+&lt;p&gt;输出结果：&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;pic.rmb.bdstatic.com&#x2F;bjh&#x2F;ef6305325bdccebe5540cd2d87df29cd.jpeg&quot; alt=&quot;嵌套写法&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;h3 id=&quot;7-yin-yong-qu-kuai&quot;&gt;7.引用区块&lt;&#x2F;h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;在文本前面添加&amp;gt; 符号即可将文本变为引用区块。&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;pre data-lang=&quot;md&quot; style=&quot;background-color:#0f1419;color:#bfbab0;&quot; class=&quot;language-md &quot;&gt;&lt;code class=&quot;language-md&quot; data-lang=&quot;md&quot;&gt;&lt;span style=&quot;font-style:italic;color:#f29718;&quot;&gt;&amp;gt; 文本内容
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;输出结果：
+&lt;img src=&quot;https:&#x2F;&#x2F;pic.rmb.bdstatic.com&#x2F;bjh&#x2F;a5070f4115d23a2cd545bfd4820e1560.jpeg&quot; alt=&quot;区块&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;h3 id=&quot;8-dai-ma-kuai&quot;&gt;8.代码块&lt;&#x2F;h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;可使用三个&lt;kbd&gt;`&lt;&#x2F;kbd&gt;符号包裹住代码块，并指定一种语言即可生成代码预览区域。此符号一定要在英文状态下才能打出。&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;pic.rmb.bdstatic.com&#x2F;bjh&#x2F;dc77b136ea98b7d74942c123d1c3eeaa.jpeg&quot; alt=&quot;代码块&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;如果在文字行内插入代码块，可以在代码前后分别插入一个&lt;kbd&gt;`&lt;&#x2F;kbd&gt;符号即可。&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;hr &#x2F;&gt;
+&lt;h3 id=&quot;9-lian-jie&quot;&gt;9.链接&lt;&#x2F;h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;有两种写法&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;pre data-lang=&quot;md&quot; style=&quot;background-color:#0f1419;color:#bfbab0;&quot; class=&quot;language-md &quot;&gt;&lt;code class=&quot;language-md&quot; data-lang=&quot;md&quot;&gt;&lt;span&gt;链接写法1：&amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;text-decoration:underline;font-style:italic;color:#95e6cb;&quot;&gt;https:&#x2F;&#x2F;cn.bing.com&#x2F;&lt;&#x2F;span&gt;&lt;span&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;链接写法2：[必应](&lt;&#x2F;span&gt;&lt;span style=&quot;text-decoration:underline;font-style:italic;color:#95e6cb;&quot;&gt;https:&#x2F;&#x2F;cn.bing.com&#x2F;&lt;&#x2F;span&gt;&lt;span&gt;)
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;blockquote&gt;
+&lt;p&gt;输出结果：&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;链接写法1：&lt;a href=&quot;https:&#x2F;&#x2F;cn.bing.com&#x2F;&quot;&gt;https:&#x2F;&#x2F;cn.bing.com&#x2F;&lt;&#x2F;a&gt;
+链接写法2：&lt;a href=&quot;https:&#x2F;&#x2F;cn.bing.com&#x2F;&quot;&gt;必应&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;h3 id=&quot;10-tu-pian&quot;&gt;10.图片&lt;&#x2F;h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Markdown 图片语法格式如下：&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;pre data-lang=&quot;md&quot; style=&quot;background-color:#0f1419;color:#bfbab0;&quot; class=&quot;language-md &quot;&gt;&lt;code class=&quot;language-md&quot; data-lang=&quot;md&quot;&gt;&lt;span style=&quot;color:#ffb454;&quot;&gt;![&lt;&#x2F;span&gt;&lt;span&gt;alt 属性文本&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffb454;&quot;&gt;]&lt;&#x2F;span&gt;&lt;span&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;text-decoration:underline;font-style:italic;color:#95e6cb;&quot;&gt;图片地址&lt;&#x2F;span&gt;&lt;span&gt;)
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffb454;&quot;&gt;![&lt;&#x2F;span&gt;&lt;span&gt;alt 属性文本&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffb454;&quot;&gt;]&lt;&#x2F;span&gt;&lt;span&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;text-decoration:underline;font-style:italic;color:#95e6cb;&quot;&gt;图片地址 &amp;quot;可选标题&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;)
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;blockquote&gt;
+&lt;p&gt;例子：&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;pre data-lang=&quot;md&quot; style=&quot;background-color:#0f1419;color:#bfbab0;&quot; class=&quot;language-md &quot;&gt;&lt;code class=&quot;language-md&quot; data-lang=&quot;md&quot;&gt;&lt;span style=&quot;color:#ffb454;&quot;&gt;![&lt;&#x2F;span&gt;&lt;span&gt;百度&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffb454;&quot;&gt;]&lt;&#x2F;span&gt;&lt;span&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;text-decoration:underline;font-style:italic;color:#95e6cb;&quot;&gt;https:&#x2F;&#x2F;www.baidu.com&#x2F;img&#x2F;PCtm_d9c8750bed0b3c7d089fa7d55720d6cf.png&lt;&#x2F;span&gt;&lt;span&gt;)
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;blockquote&gt;
+&lt;p&gt;输出结果：&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;www.baidu.com&#x2F;img&#x2F;PCtm_d9c8750bed0b3c7d089fa7d55720d6cf.png&quot; alt=&quot;百度&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;第二种方法&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;pre data-lang=&quot;md&quot; style=&quot;background-color:#0f1419;color:#bfbab0;&quot; class=&quot;language-md &quot;&gt;&lt;code class=&quot;language-md&quot; data-lang=&quot;md&quot;&gt;&lt;span style=&quot;color:#ffb454;&quot;&gt;![&lt;&#x2F;span&gt;&lt;span&gt;百度&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffb454;&quot;&gt;]&lt;&#x2F;span&gt;&lt;span&gt;[&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29718;&quot;&gt;1&lt;&#x2F;span&gt;&lt;span&gt;]
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt;[&lt;&#x2F;span&gt;&lt;span style=&quot;color:#59c2ff;&quot;&gt;1&lt;&#x2F;span&gt;&lt;span&gt;]&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0cc;&quot;&gt;:&lt;&#x2F;span&gt;&lt;span style=&quot;text-decoration:underline;font-style:italic;color:#95e6cb;&quot;&gt;https:&#x2F;&#x2F;www.baidu.com&#x2F;img&#x2F;PCtm_d9c8750bed0b3c7d089fa7d55720d6cf.png
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;blockquote&gt;
+&lt;p&gt;两种方法效果相同&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;hr &#x2F;&gt;
+&lt;h3 id=&quot;11-biao-ge&quot;&gt;11.表格&lt;&#x2F;h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;制作表格可使用 | 来分隔不同的单元格，使用 - 来分隔表头和其他行。&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;也可以设置表格的对齐方式：
+&lt;code&gt;-:&lt;&#x2F;code&gt;设置内容和标题栏居右对齐。
+&lt;code&gt;:-&lt;&#x2F;code&gt;设置内容和标题栏居左对齐。
+&lt;code&gt;:-:&lt;&#x2F;code&gt;设置内容和标题栏居中对齐。&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;md&quot; style=&quot;background-color:#0f1419;color:#bfbab0;&quot; class=&quot;language-md &quot;&gt;&lt;code class=&quot;language-md&quot; data-lang=&quot;md&quot;&gt;&lt;span style=&quot;color:#bfbab0cc;&quot;&gt;|&lt;&#x2F;span&gt;&lt;span&gt; 左对齐 &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0cc;&quot;&gt;|&lt;&#x2F;span&gt;&lt;span&gt; 右对齐 &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0cc;&quot;&gt;|&lt;&#x2F;span&gt;&lt;span&gt; 居中对齐 &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0cc;&quot;&gt;|&lt;&#x2F;span&gt;&lt;span&gt; 默认对齐 &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0cc;&quot;&gt;|
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0cc;&quot;&gt;| &lt;&#x2F;span&gt;&lt;span&gt;:-----&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0cc;&quot;&gt;| &lt;&#x2F;span&gt;&lt;span&gt;----:  &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0cc;&quot;&gt;| &lt;&#x2F;span&gt;&lt;span&gt;:----:  &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0cc;&quot;&gt;| &lt;&#x2F;span&gt;&lt;span&gt;------  &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0cc;&quot;&gt;|
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0cc;&quot;&gt;|&lt;&#x2F;span&gt;&lt;span&gt; 单元格 &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0cc;&quot;&gt;|&lt;&#x2F;span&gt;&lt;span&gt; 单元格 &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0cc;&quot;&gt;|&lt;&#x2F;span&gt;&lt;span&gt; 单元格  &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0cc;&quot;&gt;|&lt;&#x2F;span&gt;&lt;span&gt;  单元格  &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0cc;&quot;&gt;|
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0cc;&quot;&gt;|&lt;&#x2F;span&gt;&lt;span&gt; 单元格 &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0cc;&quot;&gt;|&lt;&#x2F;span&gt;&lt;span&gt; 单元格 &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0cc;&quot;&gt;|&lt;&#x2F;span&gt;&lt;span&gt; 单元格  &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0cc;&quot;&gt;|&lt;&#x2F;span&gt;&lt;span&gt;  单元格  &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0cc;&quot;&gt;|
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;blockquote&gt;
+&lt;p&gt;输出结果：&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th style=&quot;text-align: left&quot;&gt;左对齐&lt;&#x2F;th&gt;&lt;th style=&quot;text-align: right&quot;&gt;右对齐&lt;&#x2F;th&gt;&lt;th style=&quot;text-align: center&quot;&gt;居中对齐&lt;&#x2F;th&gt;&lt;th&gt;默认对齐&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;单元格&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: right&quot;&gt;单元格&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;单元格&lt;&#x2F;td&gt;&lt;td&gt;单元格&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;单元格&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: right&quot;&gt;单元格&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;单元格&lt;&#x2F;td&gt;&lt;td&gt;单元格&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+&lt;hr &#x2F;&gt;
+&lt;h2 id=&quot;gao-ji-yong-fa&quot;&gt;高级用法&lt;&#x2F;h2&gt;
+&lt;h3 id=&quot;zhi-chi-html-dai-ma&quot;&gt;支持 HTML 代码&lt;&#x2F;h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;markdown是支持html且正常识别。因此，可以解锁更多自定义写法。&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;例：标题&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;html&quot; style=&quot;background-color:#0f1419;color:#bfbab0;&quot; class=&quot;language-html &quot;&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span style=&quot;color:#39bae690;&quot;&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#59c2ff;&quot;&gt;h1&lt;&#x2F;span&gt;&lt;span style=&quot;color:#39bae690;&quot;&gt;&amp;gt;&lt;&#x2F;span&gt;&lt;span&gt;一级标题&lt;&#x2F;span&gt;&lt;span style=&quot;color:#39bae690;&quot;&gt;&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#59c2ff;&quot;&gt;h1&lt;&#x2F;span&gt;&lt;span style=&quot;color:#39bae690;&quot;&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#39bae690;&quot;&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#59c2ff;&quot;&gt;h2&lt;&#x2F;span&gt;&lt;span style=&quot;color:#39bae690;&quot;&gt;&amp;gt;&lt;&#x2F;span&gt;&lt;span&gt;二级标题&lt;&#x2F;span&gt;&lt;span style=&quot;color:#39bae690;&quot;&gt;&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#59c2ff;&quot;&gt;h2&lt;&#x2F;span&gt;&lt;span style=&quot;color:#39bae690;&quot;&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#39bae690;&quot;&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#59c2ff;&quot;&gt;h3&lt;&#x2F;span&gt;&lt;span style=&quot;color:#39bae690;&quot;&gt;&amp;gt;&lt;&#x2F;span&gt;&lt;span&gt;三级标题&lt;&#x2F;span&gt;&lt;span style=&quot;color:#39bae690;&quot;&gt;&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#59c2ff;&quot;&gt;h4&lt;&#x2F;span&gt;&lt;span style=&quot;color:#39bae690;&quot;&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#39bae690;&quot;&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#59c2ff;&quot;&gt;h4&lt;&#x2F;span&gt;&lt;span style=&quot;color:#39bae690;&quot;&gt;&amp;gt;&lt;&#x2F;span&gt;&lt;span&gt;四级标题&lt;&#x2F;span&gt;&lt;span style=&quot;color:#39bae690;&quot;&gt;&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#59c2ff;&quot;&gt;h4&lt;&#x2F;span&gt;&lt;span style=&quot;color:#39bae690;&quot;&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#39bae690;&quot;&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#59c2ff;&quot;&gt;h5&lt;&#x2F;span&gt;&lt;span style=&quot;color:#39bae690;&quot;&gt;&amp;gt;&lt;&#x2F;span&gt;&lt;span&gt;五级标题&lt;&#x2F;span&gt;&lt;span style=&quot;color:#39bae690;&quot;&gt;&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#59c2ff;&quot;&gt;h5&lt;&#x2F;span&gt;&lt;span style=&quot;color:#39bae690;&quot;&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#39bae690;&quot;&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#59c2ff;&quot;&gt;h6&lt;&#x2F;span&gt;&lt;span style=&quot;color:#39bae690;&quot;&gt;&amp;gt;&lt;&#x2F;span&gt;&lt;span&gt;六级标题&lt;&#x2F;span&gt;&lt;span style=&quot;color:#39bae690;&quot;&gt;&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#59c2ff;&quot;&gt;h6&lt;&#x2F;span&gt;&lt;span style=&quot;color:#39bae690;&quot;&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;blockquote&gt;
+&lt;p&gt;输出结果：&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;pic.rmb.bdstatic.com&#x2F;bjh&#x2F;609cc44b9a9df01da5c84541df3a72db.jpeg&quot; alt=&quot;&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;可以去查阅Html的文档了解更多：&lt;a href=&quot;https:&#x2F;&#x2F;www.runoob.com&#x2F;html&#x2F;&quot;&gt;菜鸟教程-HTML文档&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;hr &#x2F;&gt;
+&lt;h3 id=&quot;zhuan-yi-zi-fu&quot;&gt;转义字符&lt;&#x2F;h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;如果在输出以下字符无法正常输出,可在字符前面加上反斜杠&lt;code&gt;\&lt;&#x2F;code&gt;符号。
+例如我想正常输出” * “号，且不会被识别成格式控制符号，可以写为&lt;code&gt;\*&lt;&#x2F;code&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;pic.rmb.bdstatic.com&#x2F;bjh&#x2F;ffc6988469caceefb6927763a11af2f7.jpeg&quot; alt=&quot;转义字符表&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;竖线比较特殊，在markdown的表格内不能直接用反斜杠&lt;code&gt;\|&lt;&#x2F;code&gt;转义，可使用html的字符代码&lt;code&gt;&amp;amp;#124;&lt;&#x2F;code&gt;代替。&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;hr &#x2F;&gt;
+&lt;h3 id=&quot;shu-xue-gong-shi&quot;&gt;数学公式&lt;&#x2F;h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;输出数学公式需要对应的插件支持。只需要用&lt;code&gt;$&lt;&#x2F;code&gt;符号把公式包裹起来就行。如果是复杂的公式则可以用两个&lt;code&gt;$$&lt;&#x2F;code&gt;符号。&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;我的博客是安装了MathJax 数学插件的&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;pre data-lang=&quot;md&quot; style=&quot;background-color:#0f1419;color:#bfbab0;&quot; class=&quot;language-md &quot;&gt;&lt;code class=&quot;language-md&quot; data-lang=&quot;md&quot;&gt;&lt;span&gt;行内公式（适用于简单公式）：$ x^2 + \sqrt{y} = z $
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt;单独占一行(适用于复杂的公式)：
+&lt;&#x2F;span&gt;&lt;span&gt;$$
+&lt;&#x2F;span&gt;&lt;span&gt;\frac{d}{dx}e^{ax}=ae^{ax}\quad \sum_{i=1}^{n}{(X_i - \overline{X})^2}
+&lt;&#x2F;span&gt;&lt;span&gt;$$
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;blockquote&gt;
+&lt;p&gt;输出结果：&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;行内公式（适用于简单公式）：
+$ x^2 + \sqrt{y} = z $&lt;&#x2F;p&gt;
+&lt;p&gt;单独占一行(适用于复杂的公式)：&lt;&#x2F;p&gt;
+&lt;p&gt;$$ \frac{d}{dx}e^{ax}=ae^{ax}\quad \sum_{i=1}^{n}{(X_i - \overline{X})^2} $$&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;p&gt;好了，教程到这里就结束了（｡ò ∀ ó｡）&lt;&#x2F;p&gt;
+&lt;p&gt;试着自己用markdown写一些东西吧(σ′▽‵)′▽‵)σ&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
 </feed>
